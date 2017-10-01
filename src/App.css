@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background-color: rgba(34, 34, 34, 0.15);
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  width: 70%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+body {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+}
+
+.App-logo {
+  height: 80px;
+  width: auto;
+}
+
+.App-header {
+  background-color: rgba(34, 34, 34, 0.15);
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 50;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.App-intro {
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
