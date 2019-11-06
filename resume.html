@@ -1,0 +1,67 @@
+---
+layout: resume
+title: "A resume"
+description: ""
+---
+
+<div class="resume {% if site.scrollappear_enabled %}scrollappear{% endif %}">
+  <div class="layout-table">
+    <div style="width: 75%">
+      <a href="/" class="header-logo" id="resume-title">Vanna Phong</a>
+      <span><br>Southern California based contributer to open source. </span>
+    </div>
+    <div>
+      <ul class="resume-contact">
+        <li>
+          <a href="tel:1-714-515-0870" target="_blank">1-714-515-0870</a>
+        </li>
+        <li>
+          <a href="mailto:{{ site.social.email }}" target="_blank"> {{ site.social.email }}</a>
+        </li>
+        <li>{% include svg-icon.html icon="github" %}
+          <a href="https://github.com/{{ site.social.github }}" rel="noreferrer noopener" target="_blank"
+            title="GitHub" alignment-baseline="middle"> @{{ site.social.github }}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div> <!-- layout-table -->
+  <!-- <div class="divider div-transparent"></div> -->
+  <div>
+    <h2>Projects</h2>
+    <h3><b>CodePath University @ UCSD Assignments</b> —​ ​<em>Various iOS apps</em></h3>
+    <content>Built with ​Swift 3​ ​​by interfacing with public RESTful APIs. Includes recreations 
+    of popular apps to learn their inner workings. Utilized Storyboard, Autolayout, 
+    CocoaPods packages, and more. GitHub repositories with previews: ​[ F​ licks​ | Y​ elp​ | T​ witter​ | ​Instagram​ ]  
+    </content>
+  </div>
+  <div>
+    <h2>Open Source Contributions</h2>
+    <content>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </content>L
+  </div>
+  <div>
+    <h2>Education</h2>
+    <h3><b>University of California, San Diego,</b> La Jolla, CA —​
+    <p>August 2014 &mdash; June 2018</p></h3>
+    <content>Transferred from Orange Coast College (2012-2014). Graduated with a <b>B​.S. in Mathematics-Computer Science​</b>. Minor in Cognitive Science.
+    Relevant Coursework:
+    <ul>
+      <li>Mathematics:​ Mathematical reasoning, probability, statistics, discrete mathematics, combinatorics, abstract algebra</li>
+      <li>Computer Science​: Data structures, algorithms, theory of computation, software engineering</li>
+      <li>Cognitive Science:​ Machine learning, modeling and data analysis, human cognition</li>
+    </ul>
+  </content>
+  </div>
+  <div>
+    <h3><b>Codepath University @ UCSD, iOS Bootcamp</b> —​
+    <p>January 2017 &mdash; April 2017</p></h3>
+    <content>12-week course in building iPhone applications using xCode, Simulator, and Swift 3. Online course content by CodePath, taught by UCSD student teaching assistants.
+    </content>
+  </div>
+</div>
