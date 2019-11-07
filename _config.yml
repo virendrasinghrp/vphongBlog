@@ -72,6 +72,7 @@ exclude:
   - Gemfile.lock
   - package.json
   - package-lock.json
+  - Rakefile
   - README.md
   - vendor/
   - yarn.lock

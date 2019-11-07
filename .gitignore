@@ -15,3 +15,4 @@ yarn.lock
 .idea
 /.asset-cache/
 /node_modules/
+.jekyll-metadata
