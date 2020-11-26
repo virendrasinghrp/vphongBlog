@@ -2,6 +2,8 @@ sudo: false
 
 # version automatically picked up from .ruby-version
 language: ruby
+rvm:
+  - 2.6.6
 cache: bundler
 
 before_install:
