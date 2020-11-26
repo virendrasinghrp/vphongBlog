@@ -1,7 +1,7 @@
 # Mandatory settings
 
 blog_theme: light # Or use dark
-name: Vacant
+name: Virendra's Blog
 paginate: 25
 url: http://virendrasinghrp.github.io
 
@@ -20,10 +20,10 @@ social:
   dribbble: # Add your Dribbble handle
   facebook: # Add your Facebook handle
   flickr: # Add your Flickr handle
-  github: vphong # Add your GitHub handle
-  linkedin: vphong # Add your LinkedIn handle
+  github: virendrasinghrp # Add your GitHub handle
+  linkedin: virendra-singh-rajpurohit # Add your LinkedIn handle
   twitter: # Add your Twitter handle
-  email: vphong.dev@gmail.com # Add your Email address
+  email: virendrasinghrp@gmail.com # Add your Email address
   bitcoin: # Add your Bitcoin link or address
   ethereum: # Add your Ethereum link or address
   gitlab: # Add your GitLab handle
