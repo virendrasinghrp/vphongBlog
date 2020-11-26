@@ -2,11 +2,14 @@ sudo: false
 
 # version automatically picked up from .ruby-version
 language: ruby
+rvm:
+  - 2.6.6
 cache: bundler
 
 before_install:
-  - rvm use 1.9.3
+  - gem update --system
   - gem install bundler jekyll
+  - gem install node
   - bundle install
 
 before_script:
